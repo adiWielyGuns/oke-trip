@@ -130,7 +130,6 @@ class apiV1Controller extends Controller
 												}]);
 											   }])->where('id',$id)->where('dt',$dt)->first();
 
-
 		return Response::json($data);
 	}
 
